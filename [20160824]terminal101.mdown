@@ -1,0 +1,57 @@
+Title: How to use Terminal on Mac
+Date: 2016-08-23 10:56 
+Modified: 22016-08-24 19:27
+Category: Terminal
+Tags: terminal, mac
+Slug: my-super-post
+Authors: Hoang Nguyen
+Summary: Terminal for Dummies
+
+
+#How to use _Terminal_ on Mac
+
+###What is _Terminal_?
+
+> _**Terminal**_ is an interface to OS X's bash shell which people can use to type commands and get access to the UNIX system that underpins OS XOS X is a UNIX-based system, as opposed to Windows, which is NT-based). Terminal's command-line environment is known as a shell. There are various types of shell; Apple uses one called Bash.
+>
+> _**Terminal**_  is an application and lives in Utility folder. 
+>
+> In order to open _**Terminal**_, navigate to **/Applications/Utilities** `-->` **Terminal**
+
+###Basic terminal commands
+
+**1. Working with directory**
+
+| Command							| Description
+|:----------------------------------|:------------|
+| **ls**     						| list the contents of a particular directory
+| **cd**	 						| change to another directory
+| **cd ..**  						| brings you up one directory level
+| **cd `<directoryname>`**    		| changes the working directory to the one you named
+| **pwd**      						| displays the pathname of the current directory 
+| **mkdir `<newdirectoryname>`**  	| makes a new directory
+| **rmdir `<directoryname>`**		| removes (deletes) an empty directory
+| **man `<name of command>`**		| show manual page of a command
+| **sudo**							| authenticate yourself a superuser to gain extra security privileges
+
+
+**2. Working with files**
+
+| Command							| Description
+|:----------------------------------|:------------|	
+| **cp**							| copy a file
+| **chmod**							| changes permissions for access to a file. Study the man page before using this one
+| **rm**							| remove a file
+
+tim file cua giao working dir
+grep -r "C:\/\/" *
+sed -i '' 's/C:\/\//\/Users\/hoangnguyen\/Documents\/Bitbucket\/aco-20160825\//g' <FILE>
+
+**3. Aliases
+
+**vi .bash_aliases** 	: view
+**i**					: insert mode
+**esc `-->` :wq**
+
+**4. Miniconda
+**source activate pydata**:

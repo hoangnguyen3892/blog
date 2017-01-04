@@ -1,0 +1,17 @@
+##How to use _Markdown_
+
+### 1. What is _Markdown_?
+> A definition from Wikipedia: Markdown is a markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+>
+> A simple way for understanding, Markdown is language for amateur or lazy writers to edit text which is directly converted into HTML.
+
+
+### 2. Markdown tutorial.
+- Built- in Markdown cheat sheet: Shift `+` Command `+` P `-->` Markdown Preview: Open Markdown Cheat Sheet
+- Online Markdown cheat sheet: [Github](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
+- Online Markdown tutorial: [Useful website](http://www.markdowntutorial.com/)
+
+### 3. How to open Markdown file in HTML
+- Install package: Markdown preview
+- Shift `+` Command `+` P `-->` Markdown Preview: Save to HTML
+- Open HTML file in the same folder

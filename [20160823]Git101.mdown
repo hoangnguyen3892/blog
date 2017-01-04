@@ -1,0 +1,90 @@
+Title: Getting started with Git
+Date: 2016-08-24 19:50 
+Modified: 2016-08-28 13:10
+Category: Git
+Tags: git, mac
+Slug: my-super-post
+Authors: Hoang Nguyen
+Summary: Git for Dummies
+
+# Git 101
+
+## What is Git?
+>**From Atlassian**: Git is a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel. A staggering number of software projects rely on Git for version control, including commercial projects as well as open source. Developers who have worked with Git are well represented in the pool of available software development talent and it works well on a wide range of operating systems and IDEs (Integrated Development Environments).
+
+Here is the [tutorial](https://www.atlassian.com/git/tutorials/what-is-git) provided by Atlassian. An interactive guide is also provided.
+
+## How to install git
+
+
+## Commands
+
+1. Create new resporitory
+	- Create new project folder inside Git folder.
+	- Create new repo with the same name of existing folder (prefer lower-case name).
+	- Choose “I have an existing project”.
+	- **cd `<project dir>`**
+	- **git init**
+	- **git add --all**
+	- **git remo add originte `<link>`** (note: git link can be found on command 2)
+	- **git commit -m "Initial commit"**
+		- "-m" optional using for one line comment
+		- if need to comment more lines, just use commit without option, it will enter into a “vim” environment
+			- shift `+` g (instead of scrolling to the end) `-->` o `-->` writing descriptions `-->` esc `-->` :wq
+	- **git push origin master**
+
+2. Add and commit changes
+
+	- Checking update: **git status** 
+	- Adding and commiting: 
+		- **git commit -m "message"**
+		- **git commit -a** `-->` shift `+` g (instead of scrolling to the end) `-->` o `-->` writing descriptions `-->` esc `-->` :wq
+	- Checking update: **git status**
+	- Pushing changes: **git push origin master**
+
+4. Git clone
+	- git clone `<repo>`: Clone the repository located at `<repo>` onto the local machine
+	- git clone `<repo>` `<directory>`: Clone the repository located at <repo> into the folder called `<directory>`
+
+
+5. Search and replace text files
+	- Recursively search and replace: **find . -type f -name '*.txt' -exec sed -i '' s/this/that/ {} **
+	
+		**eg**: Search _"from opsupport_bpm"_ and replace with _"from opsupport.opsupport_bpm"_
+				find . -type f -name '*.py' -exec sed -i '' 's/from opsupport_bpm/from opsupport\.opsupport_bpm/g' {} +
+
+6. Search text for a specified string
+	- Search a given file for a string: grep "string" `<filename>`
+	
+		**eg**: grep "opsupport" `<file.py>`
+
+	- Search all files in home directory for a string: grep -r "string" *
+
+		**eg**: grep -r "C://" *
+
+	- Search a file for a string that's case insensitive: grep -i "cats" `<filename>`
+
+		**eg**: grep -i "cats" ~/cats.txt
+
+7. Replace text
+	- Normal: sed '' s/original string/new string/s' `<ten file>`
+
+		**eg**: sed -i '' 's/C:\/\//\/Users\/hoangnguyen\/Documents\/Bitbucket\//g' opsupport_bpm/aco/simulation/test_single_hgr_only.py
+		replace "C://" by "Users/hoangnguyen/Documents/Bitbucket/"
+
+	- Option i (to back up original file: sed -i 's/original string/new string/s' `<ten file>`
+
+8. Special characters in terminal (add `\` )
+	- `/`
+	- `.`
+
+
+
+| Command							| Description
+|:----------------------------------|:------------|
+| **git init**     					| create a new git repository
+| **git status**					| check update
+| **git push origin master**		| commit to server
+| **find ~ -name *.jpg**			| list all pathnames of all the .jpgs in home directory
+| **history |**						| show history 						
+

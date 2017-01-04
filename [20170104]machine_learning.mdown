@@ -1,0 +1,80 @@
+Title: Basic machine learning 
+Date: 2017-01-04 14:56 
+Modified: 2017-01-04 14:56 
+Category: Machine Learning
+Tags: machine learning, grid search, parameter tuning
+Slug: my-super-post
+Authors: Hoang Nguyen
+Summary: Terminal for Dummies
+
+
+#How to train model effectively
+---
+
+**Steps:**
+- Extract features
+- Build model
+- Select features
+- Train model
+
+## Learning algorithm
+**1. Linear regression**
+	1. 
+	2. Logistic regression
+**2. Support Vector Machine**
+**3. Naive Bayes Algorithm**
+**4. Random Forest**
+**5. Ensemble Modeling**
+
+> __**Relating topic artical:**__
+- [Approaching (Almost) Any Machine Learning Problem](http://blog.kaggle.com/2016/07/21/approaching-almost-any-machine-learning-problem-abhishek-thakur/)
+- [A Kaggler's Guide to Model Stacking in Practice](http://blog.kaggle.com/2016/12/27/a-kagglers-guide-to-model-stacking-in-practice/)
+- [KAGGLE ENSEMBLING GUIDE](http://mlwave.com/kaggle-ensembling-guide/)
+- [Support Vector Machine – Simplified](https://www.analyticsvidhya.com/blog/2014/10/support-vector-machine-simplified/)
+- [What is the difference between bagging and boosting?](http://quantdare.com/2016/04/what-is-the-difference-between-bagging-and-boosting/)
+- **Code** [Logistic Regression in Python](http://blog.yhat.com/posts/logistic-regression-and-python.html)
+- **Code** [XGBoost](http://www.xavierdupre.fr/app/pymyinstall/helpsphinx/_downloads/example_xgboost.pdf)
+- **Code** [Kaggle for the paws](https://andraszsom.wordpress.com/2016/07/27/kaggle-for-the-paws/)
+- **Code** [6 Easy Steps to Learn Naive Bayes Algorithm (with code in Python)](https://www.analyticsvidhya.com/blog/2015/09/naive-bayes-explained/)
+
+
+
+## Feature selection methods
+- [Introduction to Feature Selection methods with an example (or how to select the right variables?)](https://www.analyticsvidhya.com/blog/2016/12/introduction-to-feature-selection-methods-with-an-example-or-how-to-select-the-right-variables/)
+
+**1. Filter methods**
+
+| **Feature/Response**	| **Continuous**			| **Categorical**	| 
+| ----------------------| --------------------------| ------------------| 
+| Continuous			| Pearson's Correlation 	| LDA				| 
+| Categorical 			| ANOVA						| Chi-Square		|
+
+**2. Wrapper methods**
+
+- **BorutaPy**: [BorutaPy – an all relevant feature selection method](http://danielhomola.com/2015/05/08/borutapy-an-all-relevant-feature-selection-method/)
+
+**3. Embedded methods**
+- [A Complete Tutorial on Ridge and Lasso Regression in Python](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-ridge-lasso-regression-python/)
+
+## Parameter tuning
+
+- [Complete Guide to Parameter Tuning in XGBoost (with codes in Python)](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+- [How to Best Tune Multithreading Support for XGBoost in Python](http://machinelearningmastery.com/best-tune-multithreading-support-xgboost-python/)
+- **Hyperopt**: [Effectively running thousands of experiments: Hyperopt with Sacred](https://gab41.lab41.org/effectively-running-thousands-of-experiments-hyperopt-with-sacred-dfa53b50f1ec#.8l9i8vc5q)
+- **Code** [Automatic model tuning with Sacred and Hyperopt](https://github.com/gereleth/kaggle-telstra/blob/master/Automatic%20model%20tuning%20with%20Sacred%20and%20Hyperopt.ipynb)
+
+## Online Courses
+
+- [Intro to Machine Learning](https://classroom.udacity.com/courses/ud120/lessons/2410328539/concepts/24185385370923#) provided by **Udacity**
+- [Machine Learning](https://www.coursera.org/learn/machine-learning) provided by **Coursera**
+- [Deep Learning](https://classroom.udacity.com/courses/ud730/lessons/7320377048/concepts/375715a0-343a-4e9e-b312-405dc5ad79b0) provided by **Udacity**
+
+## Blog
+
+- [Analytics Vidhya](https://www.analyticsvidhya.com/)
+- [Machine Learning Mastery](http://machinelearningmastery.com/)
+
+## Competitions in Kaggle 
+
+- [Otto Group Product Classification Challenge](https://www.kaggle.com/c/otto-group-product-classification-challenge)
+- [Shelter Animal Outcomes](https://www.kaggle.com/c/shelter-animal-outcomes)
