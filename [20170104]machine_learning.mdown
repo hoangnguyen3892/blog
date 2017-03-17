@@ -24,8 +24,8 @@ Summary: Terminal for Dummies
 
 a. Linear regression
 - Practice Linear Regression by taking part in the competition: [House Prices: Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
-    - Data exploration: [here](https://www.kaggle.com/pmarcelino/house-prices-advanced-regression-techniques/comprehensive-data-exploration-with-python)
-    - Data preprocessing and Model building: [here](https://www.kaggle.com/apapiu/house-prices-advanced-regression-techniques/regularized-linear-models) or [here](https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression)
+    + Data exploration: [here](https://www.kaggle.com/pmarcelino/house-prices-advanced-regression-techniques/comprehensive-data-exploration-with-python)
+    + Data preprocessing and Model building: [here](https://www.kaggle.com/apapiu/house-prices-advanced-regression-techniques/regularized-linear-models) or [here](https://www.kaggle.com/miguelangelnieto/house-prices-advanced-regression-techniques/pca-and-regression)
 
 b. Logistic regression
 

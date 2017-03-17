@@ -11,8 +11,15 @@ Summary: Deep learning for Dummies
 # Deep learning for everyone 
 ---
 
-
 ## Theoretical knowledge
+**1.Convolutional network (CNN)**
+
+**2. Recurrent network (RNN)**
+- [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+
+**3. Generative model**
+- [VAE]()
+- [GAN](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1#.gmic40fnz)
 
 ## Practical code
 
