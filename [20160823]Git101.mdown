@@ -46,37 +46,8 @@ Here is the [tutorial](https://www.atlassian.com/git/tutorials/what-is-git) prov
 	- git clone `<repo>`: Clone the repository located at `<repo>` onto the local machine
 	- git clone `<repo>` `<directory>`: Clone the repository located at <repo> into the folder called `<directory>`
 
-
-5. Search and replace text files
-	- Recursively search and replace: **find . -type f -name '*.txt' -exec sed -i '' s/this/that/ {} **
-	
-		**eg**: Search _"from opsupport_bpm"_ and replace with _"from opsupport.opsupport_bpm"_
-				find . -type f -name '*.py' -exec sed -i '' 's/from opsupport_bpm/from opsupport\.opsupport_bpm/g' {} +
-
-6. Search text for a specified string
-	- Search a given file for a string: grep "string" `<filename>`
-	
-		**eg**: grep "opsupport" `<file.py>`
-
-	- Search all files in home directory for a string: grep -r "string" *
-
-		**eg**: grep -r "C://" *
-
-	- Search a file for a string that's case insensitive: grep -i "cats" `<filename>`
-
-		**eg**: grep -i "cats" ~/cats.txt
-
-7. Replace text
-	- Normal: sed '' s/original string/new string/s' `<ten file>`
-
-		**eg**: sed -i '' 's/C:\/\//\/Users\/hoangnguyen\/Documents\/Bitbucket\//g' opsupport_bpm/aco/simulation/test_single_hgr_only.py
-		replace "C://" by "Users/hoangnguyen/Documents/Bitbucket/"
-
-	- Option i (to back up original file: sed -i 's/original string/new string/s' `<ten file>`
-
-8. Special characters in terminal (add `\` )
-	- `/`
-	- `.`
+5. Python dependency
+	- Prepare requirement for a project [Heroku](https://devcenter.heroku.com/articles/python-pip)
 
 
 
@@ -85,6 +56,6 @@ Here is the [tutorial](https://www.atlassian.com/git/tutorials/what-is-git) prov
 | **git init**     					| create a new git repository
 | **git status**					| check update
 | **git push origin master**		| commit to server
-| **find ~ -name *.jpg**			| list all pathnames of all the .jpgs in home directory
+| **find ~ -name *.jpg**			| list all pathnames of all the 
 | **history |**						| show history 						
 

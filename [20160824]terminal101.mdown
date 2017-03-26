@@ -47,11 +47,48 @@ tim file cua giao working dir
 grep -r "C:\/\/" *
 sed -i '' 's/C:\/\//\/Users\/hoangnguyen\/Documents\/Bitbucket\/aco-20160825\//g' <FILE>
 
-**3. Aliases
+**3. Aliases**
 
 **vi .bash_aliases** 	: view
 **i**					: insert mode
 **esc `-->` :wq**
 
-**4. Miniconda
-**source activate pydata**:
+**4. Miniconda**
+
+```bash
+source activate pydata
+```
+
+**5. Search and replace text files**
+
+	- Recursively search and replace: **find . -type f -name '*.txt' -exec sed -i '' s/this/that/ {} **
+	
+		**eg**: Search _"from opsupport_bpm"_ and replace with _"from opsupport.opsupport_bpm"_
+				find . -type f -name '*.py' -exec sed -i '' 's/from opsupport_bpm/from opsupport\.opsupport_bpm/g' {} +
+
+**6. Search text for a specified string**
+
+	- Search a given file for a string: grep "string" `<filename>`
+	
+		**eg**: grep "opsupport" `<file.py>`
+
+	- Search all files in home directory for a string: grep -r "string" *
+
+		**eg**: grep -r "C://" *
+
+	- Search a file for a string that's case insensitive: grep -i "cats" `<filename>`
+
+		**eg**: grep -i "cats" ~/cats.txt
+
+**7. Replace text**
+
+	- Normal: sed '' s/original string/new string/s' `<ten file>`
+
+		**eg**: sed -i '' 's/C:\/\//\/Users\/hoangnguyen\/Documents\/Bitbucket\//g' opsupport_bpm/aco/simulation/test_single_hgr_only.py
+		replace "C://" by "Users/hoangnguyen/Documents/Bitbucket/"
+
+	- Option i (to back up original file: sed -i 's/original string/new string/s' `<ten file>`
+
+**8. Special characters in terminal (add `\` )**
+	- `/`
+	- `.`
