@@ -59,3 +59,7 @@ Here is the [tutorial](https://www.atlassian.com/git/tutorials/what-is-git) prov
 | **find ~ -name *.jpg**			| list all pathnames of all the 
 | **history |**						| show history 						
 
+6. Note
+```bash
+git filter-branch -f --index-filter 'git rm --cached --ignore-unmatch <file name>'
+```
