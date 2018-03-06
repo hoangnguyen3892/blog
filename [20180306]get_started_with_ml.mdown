@@ -1,0 +1,61 @@
+Title: Get started with Machine Learning
+Date: 2018-03-26 22:00 
+Modified: 2018-03-26 22:00
+Category: Machine learning
+Tags: machine learning, git, mac
+Slug: my-super-post
+Authors: Hoang Nguyen
+Summary: Machine learning for Dummies
+
+# How to get started with machine learning?
+
+## Clarify your objectives
+
+- [What is your machine learning tribe?](https://machinelearningmastery.com/machine-learning-tribe/)
+
+## Prepare foundation 
+- Linear algebra
+- Statistics
+- Python
+- Bash command line
+- Github
+
+1. Linear algebra
+- Be familiar with vector and matrix notation.
+- Know what eigenvectors and eigenvalues are
+- Know how to add, subtract, and multiply scalars, vectors, and matrices.
+- Know some common matrix decompositions.
+
+2. Statistics and probability
+- Know what discrete variable and continuous variable are.
+- Know some basic distributions.
+- Bayes' rule.
+
+3. Python
+- Be comfortable working with numpy, pandas, matplotlib.
+- Be able to use list, dictionary and write function, class.
+
+4. Bash command line
+- Know some basic commands: create new directory, move/copy/delete files, install python library,....
+
+5. Github
+- Be able to create new repository.
+- Know how to push and pull a project into local directory.
+
+
+## Get started with machine learning
+- Machine learning:
+	+ Linear regression
+	+ Logistic regression
+	+ PCA
+	+ SVM
+	+ Ensembling models (bagging and boosting)
+
+- Deep learning:
+	+ Multi-layer perceptron
+	+ Convolutional neural network (CNN)
+	+ Recurrent neural network (RNN)
+	+ Autoencoder
+	+ Boltzmann machine
+	+ GAN
+
